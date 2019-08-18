@@ -7,7 +7,7 @@ package rollercoaster;
 
 import java.util.*;
 import java.util.concurrent.TimeUnit;
-
+import java.util.Scanner;
 
 public class RollerCoaster {
 
@@ -51,6 +51,13 @@ public class RollerCoaster {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("(roller coaster drops)");
         System.out.println("aaaaaaaaaahhhhhhhhhhh");
+       //start user input
+            Scanner myObj = new
+       Scanner(System.in);
+            System.out.println("Left or Right");
+            String path = myObj.nextLine();
+        if (path != "Left" + "Right");
+            System.out.println("Path is Unavailable");
         
     }
     
