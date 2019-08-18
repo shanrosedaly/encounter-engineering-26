@@ -58,6 +58,30 @@ public class RollerCoaster {
             String path = myObj.nextLine();
         if (path != "Left" + "Right");
             System.out.println("Path is Unavailable");
+               if(path == "Left")
+        {
+            System.out.println("fire shoots out");
+            //scary music
+        }
+        if(path == "Right")
+        {
+            System.out.println("You thought you picked right...");
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println("but you picked WROOOOOONG!!!");
+            System.out.println("DUN");
+            System.out.println("DUN");
+            System.out.println("DUUUUUUUN");
+            //peaceful music for 2 seconds, then scary music
+        }
+        System.out.println("You are now entering the mouth of the demon."); //try the o thing
+        
+        
+        Scanner input1 = new Scanner(System.in);
+
+            System.out.println("Ahead, you see two loops creeping up on the horizon...");
+            System.out.println("Take your pick. One loop or two loops?");
+
+            String loop = input1.nextLine();
         
     }
     
